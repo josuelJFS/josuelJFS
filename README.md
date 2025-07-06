@@ -140,7 +140,7 @@
 **🔧 Tech Stack:** React, Node.js, JavaScript, API RESTful
 **✨ Features:** Gestão de eventos, sistema de usuários, painel administrativo
 
-### 💧 [Beba Água - Health App](https://github.com/josuelJFS/beba-agua)
+### 💧 [Beba Água - Health App](https://github.com/josuelJFS/Beba-gua)
 **TypeScript • React Native**
 > App de saúde para controle de hidratação com notificações inteligentes e sincronização offline.
 
