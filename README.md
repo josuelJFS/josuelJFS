@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Experiência-7+Anos-FF6B6B?style=for-the-badge&logo=calendar&logoColor=white" alt="7+ Years Experience"/>
   <img src="https://img.shields.io/badge/Foco-React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React Native Focus"/>
   <img src="https://img.shields.io/badge/Localização-Candeias,_PE-4ECDC4?style=for-the-badge&logo=map-pin&logoColor=white" alt="Location"/>
-  <img src="https://img.shields.io/badge/Capgemini-Alumni-0052CC?style=for-the-badge&logo=capgemini&logoColor=white" alt="Capgemini Alumni"/>
+
 </div>
 
 ## 🚀 Sobre mim
