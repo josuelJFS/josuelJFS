@@ -1,7 +1,7 @@
 # 👋 Olá! Eu sou Josuel Fernandes
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=700&lines=Desenvolvedor+Full-Stack;7+Anos+de+Experiência;Especialista+em+React+Native;Capgemini+%7C+GPMSoluções+%7C+Aqua;Mobile+%26+Web+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=700&lines=Desenvolvedor+Mobile;7+Anos+de+Experiência;Especialista+em+React+Native;Capgemini+%7C+GPMSoluções+%7C+Aqua;Mobile+%26+Web+Developer" alt="Typing SVG" />
 </div>
 
 <div align="center">
