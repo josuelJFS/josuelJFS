@@ -13,7 +13,7 @@
 
 ## 🚀 Sobre mim
 
-**Desenvolvedor Full-Stack** com **7 anos de experiência sólida** no mercado, especializado em **React Native** e soluções mobile. Atualmente na **GPMSoluções**, com passagem pela **Capgemini** desenvolvendo apps para bancos e grandes empresas. Apaixonado por criar soluções que impactam positivamente empresas e usuários.
+**Desenvolvedor Mobile** com **7 anos de experiência sólida** no mercado, especializado em **React Native** e soluções mobile. Atualmente na **GPMSoluções**, com passagem pela **Capgemini** desenvolvendo apps para bancos e grandes empresas. Apaixonado por criar soluções que impactam positivamente empresas e usuários.
 
 ### 🎯 **Destaques da Carreira:**
 - 🏦 **Apps bancários** e **grandes empresas** na Capgemini
