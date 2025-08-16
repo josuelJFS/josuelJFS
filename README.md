@@ -1,7 +1,7 @@
 # 👋 Olá! Eu sou Josuel Fernandes
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=700&lines=Desenvolvedor+Mobile;7+Anos+de+Experiência;Especialista+em+React+Native;Capgemini+%7C+GPMSoluções+%7C+Aqua;Mobile+%26+Web+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=700&lines=Desenvolvedor+Mobile;7+Anos+de+Experiência;React+Native+Specialist;Full+Stack+Developer" alt="Typing SVG"/>
 </div>
 
 <div align="center">
@@ -13,7 +13,7 @@
 
 ## 🚀 Sobre mim
 
-**Desenvolvedor Mobile** com **7 anos de experiência sólida** no mercado, especializado em **React Native** e soluções mobile. Atualmente na **GPMSoluções**, com passagem pela **Capgemini** desenvolvendo apps para bancos e grandes empresas. Apaixonado por criar soluções que impactam positivamente empresas e usuários.
+**Desenvolvedor Mobile** com **7 anos de experiência sólida** no mercado, especializado em **React Native** e soluções mobile. Atualmente na **GPMSoluções**, com passagem pela **Capgemini** desenvolvendo apps bancários e soluções para grandes empresas como **Volvo**.
 
 ### 🎯 **Destaques da Carreira:**
 - 🏦 **Apps bancários** e **grandes empresas** na Capgemini
@@ -116,8 +116,8 @@
 ## 📊 Estatísticas GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=josuelJFS&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=61DAFB&icon_color=61DAFB&text_color=C9D1D9" alt="GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=josuelJFS&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=61DAFB&text_color=C9D1D9" alt="Top Languages" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=josuelJFS&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=61DAFB&icon_color=61DAFB&text_color=C9D1D9" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=josuelJFS&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=61DAFB&text_color=C9D1D9" alt="Top Languages"/>
 </div>
 
 <div align="center">
@@ -125,6 +125,13 @@
 </div>
 
 ## 🎯 Projetos em Destaque
+
+### 💰 [Finan-as - Gestão Financeira](https://github.com/josuelJFS/finan-as)
+**TypeScript • React Native** • 🆕 **Projeto Recente**
+> Sistema completo de gestão financeira pessoal com controle de receitas, despesas e planejamento financeiro.
+
+**🔧 Tech Stack:** React Native, TypeScript, Expo
+**✨ Features:** Gestão de contas, categorização de gastos, relatórios financeiros, sincronização de dados
 
 ### 🏦 [Nubank Clone](https://github.com/josuelJFS/nubank)
 **TypeScript • React Native** • ⭐ 2 stars • 🍴 2 forks
