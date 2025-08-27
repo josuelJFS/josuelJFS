@@ -1,107 +1,368 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Currículo - Josuel Fernandes</title>
-<style>
-    body { font-family: Arial, sans-serif; line-height: 1.5; margin: 40px; color: #333; }
-    h1, h2, h3 { color: #1a1a1a; }
-    h1 { font-size: 28px; margin-bottom: 5px; }
-    h2 { font-size: 22px; margin-top: 30px; margin-bottom: 10px; border-bottom: 2px solid #ccc; padding-bottom: 3px; }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 5px; }
-    p { margin: 5px 0; }
-    ul { margin: 5px 0 15px 20px; }
-    a { color: #1a0dab; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .section-header { margin-top: 25px; margin-bottom: 10px; }
-    .contact { font-size: 14px; margin-bottom: 20px; }
-</style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo - Josuel Fernandes</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", "Roboto", Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+      @media print {
+        body {
+          background: #fff !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+        .container {
+          box-shadow: none !important;
+          border-radius: 0 !important;
+          padding: 0 !important;
+        }
+      }
+      .container {
+        max-width: 900px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .header img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-right: 25px;
+        border: 3px solid #1e3a8a;
+      }
+      .header-info h1 {
+        font-size: 32px;
+        margin-bottom: 5px;
+        color: #1e3a8a;
+      }
+      .contact-info {
+        font-size: 14px;
+        color: #555;
+      }
+      .contact-info a {
+        color: #1e3a8a;
+        text-decoration: none;
+      }
+      h2 {
+        font-size: 22px;
+        color: #1e40af;
+        border-bottom: 2px solid #1e3a8a;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+      }
+      .section {
+        margin-bottom: 25px;
+        line-height: 1.6;
+      }
+      ul {
+        padding-left: 20px;
+        margin: 10px 0;
+      }
+      ul li {
+        margin-bottom: 8px;
+      }
+      .job-title {
+        font-weight: bold;
+        color: #111827;
+        margin-top: 15px;
+      }
+      .company-date {
+        font-style: italic;
+        color: #6b7280;
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      .skills,
+      .languages {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
+      .skills span,
+      .languages span {
+        background-color: #e0e7ff;
+        color: #1e40af;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 5px 5px 0 0;
+        font-size: 13px;
+      }
+      .bullet-section {
+        margin-bottom: 15px;
+      }
+      .bullet-section ul li ul {
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4D35AQF0JkzOzFkPqQ/profile-framedphoto-shrink_400_400/B4DZigD84nHwAg-/0/1755032047493?e=1756915200&v=beta&t=2vfqVuq4Z2AVRq-gsZgpj4KBRG-xMhFuhmMWcn_xfDE"
+          alt="Foto Josuel Fernandes"
+        />
+        <div class="header-info">
+          <h1>JOSUEL FERNANDES</h1>
+          <div class="contact-info">
+            📱 (81) 99575-1966 | ✉ josuelafk@gmail.com<br />
+            📍 Candeias – Pernambuco |
+            <a href="https://www.linkedin.com/in/josuel-fernandes-silva/" target="_blank"
+              >LinkedIn</a
+            >
+            | <a href="https://github.com/josuelJFS" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
 
-<h1>Josuel Fernandes</h1>
-<div class="contact">
-📱 (81) 99575-1966 | ✉ josuelafk@gmail.com <br>
-📍 Candeias – Pernambuco | <a href="https://www.linkedin.com/in/josuel-fernandes-silva/">LinkedIn</a> | <a href="https://github.com/josuelJFS">GitHub</a>
-</div>
+      <div class="section">
+        <h2>🎯 Resumo das Qualificações</h2>
+        <p>
+          Desenvolvedor <b>Mobile e Full-Stack</b> com mais de 7 anos de experiência,
+          especializado em <b>React Native, React.js e Node.js</b>.
+        </p>
+        <ul style="margin-left: 32px">
+          <li>
+            Atuação em projetos de grande porte (ex: <b>Banco do Brasil – BBPJ</b>) e
+            desenvolvimento de soluções inovadoras.
+          </li>
+          <li>
+            Experiência em apps <b>offline-first</b>, rastreamento em tempo real e
+            sistemas de gestão escolar.
+          </li>
+          <li>
+            Refatoração de apps legados, melhoria de <b>UX/UI</b>, integrações com
+            <b>APIs REST</b> e módulos nativos.
+          </li>
+          <li>
+            Vivência com <b>AWS</b> (Lambda, EC2, API Gateway), <b>Docker</b>,
+            <b>Firebase</b>, <b>CI/CD</b> (GitHub Actions, GitLab CI, Expo EAS) e
+            <b>Git</b>.
+          </li>
+          <li>
+            Perfil <b>proativo e colaborativo</b>, com histórico de liderança técnica,
+            entrega de produtos em produção e foco em performance e escalabilidade.
+          </li>
+        </ul>
+      </div>
 
-<h2>🎯 Resumo das Qualificações</h2>
-<p>Desenvolvedor <strong>Mobile e Full-Stack</strong> com mais de 7 anos de experiência, especializado em <strong>React Native, React.js e Node.js</strong>.</p>
-<ul>
-<li>Atuação em projetos de grande porte (ex: <strong>Banco do Brasil – BBPJ</strong>) e desenvolvimento de soluções inovadoras.</li>
-<li>Experiência em apps <strong>offline-first</strong>, rastreamento em tempo real e sistemas de gestão escolar.</li>
-<li>Refatoração de apps legados, melhoria de <strong>UX/UI</strong>, integrações com <strong>APIs REST</strong> e módulos nativos.</li>
-<li>Vivência com <strong>AWS</strong> (Lambda, EC2, API Gateway), <strong>Docker</strong>, <strong>Firebase</strong>, <strong>CI/CD</strong> (GitHub Actions, GitLab CI, Expo EAS) e <strong>Git</strong>.</li>
-<li>Perfil <strong>proativo e colaborativo</strong>, com histórico de liderança técnica, entrega de produtos em produção e foco em performance e escalabilidade.</li>
-</ul>
+      <div class="section">
+        <h2>💼 Experiência Profissional</h2>
 
-<h2>💼 Experiência Profissional</h2>
+        <div class="bullet-section">
+          <h3 style="margin-bottom: 0; font-size: 1.15em">
+            <b>GPM Soluções – Desenvolvedor Mobile (React Native)</b>
+          </h3>
+          <div class="company-date">📅 01/2024 – 09/2025</div>
+          <ul style="margin-left: 32px; margin-bottom: 18px">
+            <li>
+              Recriação do app <b>GPM Mobile</b>, modernizando legado com foco em
+              performance e usabilidade.
+            </li>
+            <li>Implementação de arquitetura <b>offline-first</b> com RealmDB.</li>
+            <li>
+              Desenvolvimento do <b>GPM Track</b>:
+              <ul>
+                <li>Rastreamento veicular em tempo real com GPS e mapas.</li>
+                <li>
+                  Animações de rotas percorridas, pontos de parada e tempo de
+                  deslocamento.
+                </li>
+                <li>
+                  <b>Background services</b> para captura de localização mesmo com app
+                  fechado.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Uso de <b>AWS</b> (Lambda, EC2, API Gateway) e versionamento com
+              <b>GitCommit</b>.
+            </li>
+            <li>
+              Aplicação de <b>Atomic Design</b>, <b>GlueStack</b> e <b>NativeWind</b> para
+              padronização visual.
+            </li>
+            <li>
+              <b>Tecnologias:</b> React Native, TypeScript, Expo, RealmDB, AWS, APIs REST,
+              GlueStack, NativeWind.
+            </li>
+          </ul>
+        </div>
 
-<h3>GPM Soluções – Desenvolvedor Mobile (React Native)</h3>
-<p>📅 01/2023 – 05/2024</p>
-<ul>
-<li>Recriação do app <strong>GPM Mobile</strong>, modernizando legado com foco em performance e usabilidade.</li>
-<li>Implementação de arquitetura <strong>offline-first</strong> com RealmDB.</li>
-<li>Desenvolvimento do <strong>GPM Track</strong>: rastreamento veicular em tempo real, animações de rotas, pontos de parada e background services.</li>
-<li>Uso de <strong>AWS</strong> e versionamento com <strong>GitCommit</strong>.</li>
-<li>Aplicação de <strong>Atomic Design</strong>, <strong>GlueStack</strong> e <strong>NativeWind</strong> para padronização visual.</li>
-<li><strong>Tecnologias:</strong> React Native, TypeScript, Expo, RealmDB, AWS, APIs REST, GlueStack, NativeWind.</li>
-</ul>
+        <div class="bullet-section">
+          <h3 style="margin-bottom: 0; font-size: 1.15em">
+            <b>Capgemini – Desenvolvedor Frontend/Mobile (React Native)</b>
+          </h3>
+          <div class="company-date">📅 03/2022 – 12/2023</div>
+          <ul style="margin-left: 32px">
+            <li>
+              Projetos de grande porte: <b>Banco do Brasil PJ (BBPJ)</b> e <b>Zapido</b>.
+            </li>
+            <li>Refatoração completa de app legado e implementação de novo UX.</li>
+            <li>
+              Migração de código para <b>componentes funcionais</b> com Context API e
+              hooks (<b>useCallback, useMemo</b>).
+            </li>
+            <li>Implementação de <b>Redux</b> e <b>Styled-components</b>.</li>
+            <li>
+              Criação de <b>testes unitários com Jest</b> e configuração de
+              <b>notificações push</b> com Firebase.
+            </li>
+            <li>
+              <b>Tecnologias:</b> React Native, TypeScript, Redux, Styled-components,
+              Jest, Firebase, GitLab, Xcode, Android Studio.
+            </li>
+          </ul>
+        </div>
 
-<h3>Capgemini – Desenvolvedor Frontend/Mobile (React Native)</h3>
-<p>📅 03/2022 – 12/2022</p>
-<ul>
-<li>Projetos de grande porte: <strong>Banco do Brasil PJ (BBPJ)</strong> e <strong>Zapido</strong>.</li>
-<li>Refatoração completa de app legado e implementação de novo UX.</li>
-<li>Migração de código para <strong>componentes funcionais</strong> com Context API e hooks (<em>useCallback, useMemo</em>).</li>
-<li>Implementação de <strong>Redux</strong> e <strong>Styled-components</strong>.</li>
-<li>Criação de <strong>testes unitários com Jest</strong> e configuração de <strong>notificações push</strong> com Firebase.</li>
-<li><strong>Tecnologias:</strong> React Native, TypeScript, Redux, Styled-components, Jest, Firebase, GitLab, Xcode, Android Studio.</li>
-</ul>
+        <div class="bullet-section">
+          <h3 style="margin-bottom: 0; font-size: 1.15em">
+            <b>Aqua Tecnologia – Desenvolvedor Frontend (ReactJS)</b>
+          </h3>
+          <div class="company-date">📅 08/2021 – 03/2022</div>
+          <ul style="margin-left: 32px">
+            <li>
+              Criação de aplicações web com
+              <b>React.js, TypeScript, Context API, hooks e Material-UI</b>.
+            </li>
+            <li>Desenvolvimento de APIs low-code baseadas em Node.js.</li>
+            <li>
+              Projetos de destaque:
+              <ul>
+                <li>
+                  <b>Showroom Virtual</b>: interação em tempo real entre cliente e
+                  vendedor (ex: Volvo).
+                </li>
+                <li>
+                  <b>Showcase</b>: aplicação interativa para museus com tutoriais em
+                  slides.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>Tecnologias:</b> React.js, TypeScript, Context API, Material-UI,
+              Styled-components, Node.js.
+            </li>
+          </ul>
+        </div>
 
-<h3>Aqua Tecnologia – Desenvolvedor Frontend (ReactJS)</h3>
-<p>📅 08/2021 – 03/2022</p>
-<ul>
-<li>Criação de aplicações web com <strong>React.js, TypeScript, Context API, hooks e Material-UI</strong>.</li>
-<li>Desenvolvimento de APIs low-code baseadas em Node.js.</li>
-<li>Projetos de destaque: <strong>Showroom Virtual</strong> e <strong>Showcase</strong>.</li>
-<li><strong>Tecnologias:</strong> React.js, TypeScript, Context API, Material-UI, Styled-components, Node.js.</li>
-</ul>
+        <div class="bullet-section">
+          <h3 style="margin-bottom: 0; font-size: 1.15em">
+            <b>Igreja Evangélica Assembleia de Deus – Desenvolvedor Backend</b>
+          </h3>
+          <div class="company-date">📅 01/2021 – 08/2021</div>
+          <ul style="margin-left: 32px">
+            <li>
+              Desenvolvimento de funcionalidades no sistema interno com
+              <b>Laravel/PHP</b> e <b>Angular/TypeScript</b>.
+            </li>
+            <li>Módulo de upload em massa de imagens utilizando <b>async/await</b>.</li>
+            <li>
+              Desenvolvimento de <b>API REST</b> e frontend do módulo de forma
+              independente.
+            </li>
+            <li><b>Tecnologias:</b> Laravel, PHP, Angular, TypeScript, SQL, Oracle.</li>
+          </ul>
+        </div>
 
-<h3>Igreja Evangélica Assembleia de Deus – Desenvolvedor Backend</h3>
-<p>📅 04/2021 – 08/2021</p>
-<ul>
-<li>Desenvolvimento de funcionalidades no sistema interno com <strong>Laravel/PHP</strong> e <strong>Angular/TypeScript</strong>.</li>
-<li>Módulo de upload em massa de imagens utilizando <strong>async/await</strong>.</li>
-<li>Desenvolvimento de <strong>API REST</strong> e frontend do módulo de forma independente.</li>
-<li><strong>Tecnologias:</strong> Laravel, PHP, Angular, TypeScript, SQL, Oracle.</li>
-</ul>
+        <div class="bullet-section">
+          <h3 style="margin-bottom: 0; font-size: 1.15em">
+            <b>NTDSOFT – Desenvolvedor Full-Stack / Tech Lead</b>
+          </h3>
+          <div class="company-date">📅 04/2018 – 01/2021</div>
+          <ul style="margin-left: 32px">
+            <li>
+              Início como trainee em <b>PHP, HTML e CSS</b>, promovido a Tech Lead em 1
+              ano.
+            </li>
+            <li>Liderança de equipe, definição de arquitetura e delegação de tarefas.</li>
+            <li>
+              Criação do <b>NTDSOFT Portal do Aluno</b> (Play Store):
+              <ul>
+                <li>
+                  <b>Admin:</b> gestão financeira, boletos, relatórios de inadimplência.
+                </li>
+                <li><b>Professor:</b> lançamento de notas e criação de atividades.</li>
+                <li>
+                  <b>Aluno:</b> acesso a boletins, atividades e acompanhamento de
+                  desempenho.
+                </li>
+              </ul>
+            </li>
+            <li>Desenvolvimento de <b>API RESTful</b> com autenticação JWT.</li>
+            <li>
+              Infraestrutura Linux e implementação de <b>CI/CD</b> com GitHub Actions e
+              Expo EAS.
+            </li>
+            <li>
+              <b>Tecnologias:</b> React.js, React Native, Expo, Node.js, PHP, MySQL,
+              GitHub, JWT, Linux, Docker.
+            </li>
+          </ul>
+        </div>
+      </div>
 
-<h3>NTDSOFT – Desenvolvedor Full-Stack / Tech Lead</h3>
-<p>📅 04/2018 – 01/2021</p>
-<ul>
-<li>Início como trainee em <strong>PHP, HTML e CSS</strong>, promovido a Tech Lead em 1 ano.</li>
-<li>Liderança de equipe, definição de arquitetura e delegação de tarefas.</li>
-<li>Criação do <strong>NTDSOFT Portal do Aluno</strong> (Play Store) com módulos Admin, Professor e Aluno.</li>
-<li>Desenvolvimento de <strong>API RESTful</strong> com autenticação JWT.</li>
-<li>Infraestrutura Linux e implementação de <strong>CI/CD</strong> com GitHub Actions e Expo EAS.</li>
-<li><strong>Tecnologias:</strong> React.js, React Native, Expo, Node.js, PHP, MySQL, GitHub, JWT, Linux, Docker.</li>
-</ul>
+      <div class="section">
+        <h2>🎓 Formação</h2>
+        <ul>
+          <li>Técnico em Web/Mobile – Concluído em 2015</li>
+        </ul>
+      </div>
 
-<h2>🎓 Formação</h2>
-<p><strong>Técnico em Web/Mobile</strong> – Concluído em 2015</p>
+      <div class="section">
+        <h2>🛠️ Habilidades Técnicas</h2>
+        <div class="skills">
+          <span>React.js</span><span>React Native</span><span>Expo</span
+          ><span>Camera Expo</span><span>Mapas</span><span>Localização</span
+          ><span>GPS</span><span>Coordenadas</span><span>Banco offline</span
+          ><span>MySQL</span><span>CSS</span><span>JavaScript</span><span>HTML</span
+          ><span>TypeScript</span><span>Angular</span><span>Styled-components</span
+          ><span>Material-UI</span><span>Node.js</span><span>PHP (Laravel)</span
+          ><span>SQL</span><span>AWS</span><span>Firebase</span><span>Docker</span
+          ><span>Azure</span><span>Linux</span><span>GitHub/GitLab</span><span>CI/CD</span
+          ><span>Play Console</span><span>Xcode</span><span>Android Studio</span
+          ><span>Notificações Push</span><span>RealmDB</span><span>JWT</span
+          ><span>WebSockets</span><span>Testes unitários (Jest)</span
+          ><span>Scrum/Kanban</span> <span>Redux</span><span>Context API</span
+          ><span>Testes end-to-end (Cypress)</span><span>WebSockets avançado</span
+          ><span>Integração com APIs externas</span
+          ><span>Hospedagem e infraestrutura AWS (EC2, S3, RDS, etc.)</span
+          ><span>Docker avançado</span><span>ReactJS avançado</span
+          ><span>Next.js (SSR e SPA)</span><span>NativeWind</span><span>Tailwind CSS</span
+          ><span>Expo SDK avançado</span><span>NoSQL (Firebase Firestore)</span
+          ><span>Machine Learning básico</span
+          ><span>Visão computacional (reconhecimento de imagens no Expo)</span
+          ><span>Node.js backend avançado</span><span>Laravel avançado</span
+          ><span>Scrum/Kanban avançado</span
+          ><span>Integração de pagamento e agendamento</span>
+        </div>
+      </div>
 
-<h2>🛠️ Habilidades Técnicas</h2>
-<ul>
-<li><strong>Frontend:</strong> React.js, React Native, Expo, Angular, Styled-components, Material-UI</li>
-<li><strong>Backend:</strong> Node.js, PHP (Laravel), SQL, MySQL</li>
-<li><strong>Cloud & DevOps:</strong> AWS (Lambda, EC2, API Gateway), Firebase, Docker, Azure, Linux</li>
-<li><strong>Ferramentas:</strong> Git (GitHub/GitLab), CI/CD (GitHub Actions, GitLab CI, Expo EAS), Play Console, Xcode, Android Studio</li>
-<li><strong>Extras:</strong> Notificações Push, RealmDB, JWT, WebSockets, testes unitários (Jest), metodologias ágeis (Scrum/Kanban)</li>
-</ul>
-
-<h2>🌍 Idiomas</h2>
-<p><strong>Inglês:</strong> Leitura avançada | Conversação intermediária</p>
-
-</body>
+      <div class="section">
+        <h2>🌍 Idiomas</h2>
+        <div class="languages">
+          <span>Inglês: Leitura avançada, conversação intermediária</span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
